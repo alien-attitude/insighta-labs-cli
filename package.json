@@ -1,0 +1,21 @@
+{
+  "name": "insighta-cli",
+  "version": "3.0.0",
+  "description": "Insighta Labs+ CLI — Demographic intelligence from your terminal",
+  "type": "module",
+  "bin": {
+    "insighta": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "axios":      "^1.7.2",
+    "chalk":      "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "commander":  "^12.1.0",
+    "open":       "^10.1.0",
+    "ora":        "^8.0.1"
+  }
+}
